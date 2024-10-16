@@ -1,0 +1,88 @@
+.campaign-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.campaign-form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.campaign-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.input-field,
+.file-input {
+    width: 94%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.file-input {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Style for Logout Button */
+.logout-button {
+    position: absolute;
+    top: 20px; 
+    right: 20px;
+    padding: 10px 15px; 
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.logout-button:hover {
+    background-color: #d32f2f;
+}
+.error-message {
+    color:red
+}
+
+.alert-success {
+    background-color: #d4edda; 
+    border-color: #c3e6cb;
+    color: #155724; 
+    font-size: 16px; 
+    font-weight: bold; 
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 25px;
+}
